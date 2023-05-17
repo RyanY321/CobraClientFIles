@@ -13,4 +13,4 @@ ipconfig /renew6 >nul
 echo IPv6 just renewed
 echo Now exiting...
 timeout 3 >nul
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

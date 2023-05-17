@@ -29,11 +29,11 @@ echo ==========================================
 echo (7) Back
 echo ==========================================
 choice /c 1234567e /n
-if %errorlevel% == 1 call C:\CobraClient\CobraClientInstall\ProgramAttributes\WindowsTools\SFC.bat
-if %errorlevel% == 2 call C:\CobraClient\CobraClientInstall\ProgramAttributes\WindowsTools\Defrag.bat
-if %errorlevel% == 3 call C:\CobraClient\CobraClientInstall\ProgramAttributes\WindowsTools\DAT.bat
-if %errorlevel% == 4 call C:\CobraClient\CobraClientInstall\ProgramAttributes\WindowsTools\CurrentUser.bat
-if %errorlevel% == 5 call C:\CobraClient\CobraClientInstall\ProgramAttributes\WindowsTools\MoveFile.bat
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\SFC.bat
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\Defrag.bat
+if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\DAT.bat
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\CurrentUser.bat
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\MoveFile.bat
 if %errorlevel% == 6 call C:\CobraClient\CobraClient\ProgramAttributes\WindowsFiles\Activation.bat
-if %errorlevel% == 7 call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 8 exit

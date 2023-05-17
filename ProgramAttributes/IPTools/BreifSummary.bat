@@ -15,4 +15,4 @@ echo.
 ipconfig
 echo ==========================================
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

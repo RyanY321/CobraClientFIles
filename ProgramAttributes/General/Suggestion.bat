@@ -14,19 +14,19 @@ echo ==========================================
 set /p discord=Your Discord username and Tag: 
 set /p suggestion=Your Suggestion: 
 
-if exist "C:\CobraClient\CobraClientInstall\Resources\Suggestions.js" (
-	del /F /Q C:\CobraClient\CobraClientInstall\Resources\Suggestions.js
+if exist "C:\CobraClient\CobraClientFiles\Resources\Suggestions.js" (
+	del /F /Q C:\CobraClient\CobraClientFiles\Resources\Suggestions.js
 ) else (
 	goto SuggestionContinue
 )
 
 :SuggestionContinue
 
-cd C:\CobraClient\CobraClientInstall\Resources
+cd C:\CobraClient\CobraClientFiles\Resources
 echo const webhook = require("webhook-discord"); >>Suggestions.js
 echo const Hook = new webhook.Webhook("https://discord.com/api/webhooks/1097701265640792186/2SqNF6ZPi2nAfFPfpwhTJ0G1Gq2yZJfJZLroeUCU26gFJtX-01BeTDWrcOKvuK6FRh0d"); >>Suggestions.js
 echo Hook.success("%discord%'s suggestion","%suggestion%"); >>Suggestions.js
 
-node C:\CobraClient\CobraClientInstall\Resources\Suggestions.js
+node C:\CobraClient\CobraClientFiles\Resources\Suggestions.js
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

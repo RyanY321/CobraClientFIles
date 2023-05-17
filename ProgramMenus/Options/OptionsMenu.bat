@@ -28,11 +28,11 @@ echo ==========================================
 echo (7) Back
 echo ==========================================
 choice /c 1234567e /n
-if %errorlevel% == 1 call C:\CobraClient\CobraClientInstall\ProgramAttributes\Options\Headless.bat
-if %errorlevel% == 2 call C:\CobraClient\CobraClientInstall\ProgramAttributes\Options\Colors.bat
-if %errorlevel% == 3 call C:\CobraClient\CobraClientInstall\ProgramAttributes\Options\PatchNotes.bat
-if %errorlevel% == 4 call C:\CobraClient\CobraClientInstall\ProgramAttributes\Options\Plugins.bat
-if %errorlevel% == 5 call C:\CobraClient\CobraClientInstall\ProgramAttributes\Options\DisableAutoUpdate.bat
-if %errorlevel% == 6 call C:\CobraClient\CobraClientInstall\ProgramAttributes\Options\CheckUninstall.bat
-if %errorlevel% == 7 call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Headless.bat
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Colors.bat
+if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\PatchNotes.bat
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Plugins.bat
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\DisableAutoUpdate.bat
+if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\CheckUninstall.bat
+if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 8 exit

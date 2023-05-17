@@ -34,14 +34,14 @@ echo ==========================================
 echo (0) Tracert
 echo ==========================================
 choice /c 1234567890e /n
-if %errorlevel% == 1 call C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools\IPLookup.bat
-if %errorlevel% == 2 call C:\CobraClient\CobraClientInstall\ProgramMenus\IPTools\IPConfigMenu.bat
-if %errorlevel% == 3 call C:\CobraClient\CobraClientInstall\ProgramMenus\IPTools\RenewingMenu.bat
-if %errorlevel% == 4 call C:\CobraClient\CobraClientInstall\ProgramMenus\IPTools\DNSFlushMenu.bat
-if %errorlevel% == 5 call C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools\DNSTables.bat
-if %errorlevel% == 6 call C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools\Pinger.bat
-if %errorlevel% == 7 call C:\CobraClient\CobraClientInstall\ProgramMenus\IPTools\DNSLookupMenu.bat
-if %errorlevel% == 8 call C:\CobraClient\CobraClientInstall\Resources\Error.bat
-if %errorlevel% == 9 call C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools\IPConnections.bat
-if %errorlevel% == 10 call C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools\Tracert.bat
-if %errorlevel% == 11 call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\IPLookup.bat
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools\IPConfigMenu.bat
+if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools\RenewingMenu.bat
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools\DNSFlushMenu.bat
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\DNSTables.bat
+if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\Pinger.bat
+if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools\DNSLookupMenu.bat
+if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\Resources\Error.bat
+if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\IPConnections.bat
+if %errorlevel% == 10 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\Tracert.bat
+if %errorlevel% == 11 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

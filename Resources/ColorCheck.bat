@@ -4,4 +4,4 @@ if exist "C:\CobraFiles\Color\Pink.cobra" color 0D
 if exist "C:\CobraFiles\Color\Yellow.cobra" color 0E
 if exist "C:\CobraFiles\Color\White.cobra" color 0F
 
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

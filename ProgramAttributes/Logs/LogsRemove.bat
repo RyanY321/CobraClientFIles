@@ -25,4 +25,4 @@ cd C:\CobraFiles\Notes
 del /Q /F "%RemoveLog%.CobraClient"
 echo Removed Log.
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

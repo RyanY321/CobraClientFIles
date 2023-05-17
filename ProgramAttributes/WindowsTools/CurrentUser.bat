@@ -15,4 +15,4 @@ echo The current user account that is signed
 echo into this desktop %username%,
 echo on %date%, at %time%
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

@@ -21,7 +21,7 @@ echo ==========================================
 echo (3) Back
 echo ==========================================
 choice /c 123e /n
-if %errorlevel% == 1 call C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools\DNSHasWWW.bat
-if %errorlevel% == 2 call C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools\DNSNoWWW.bat
-if %errorlevel% == 3 call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\DNSHasWWW.bat
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\DNSNoWWW.bat
+if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 4 exit

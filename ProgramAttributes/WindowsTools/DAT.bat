@@ -13,4 +13,4 @@ echo ░╚════╝░░╚════╝░╚═════╝░╚
 echo ==========================================
 echo The current date is %date%, and the current time is %time%.
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

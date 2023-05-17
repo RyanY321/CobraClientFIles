@@ -40,7 +40,7 @@ mkdir Color
 attrib +H C:\CobraFiles\Color
 cd C:\CobraFiles\Color
 echo color>>Red.cobra
-call C:\CobraClient\CobraClientInstall\Resources\ColorCheck.bat
+call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
 :DefaultBlue
 rmdir /S /Q C:\CobraFiles\Color
 cd C:\CobraFiles
@@ -48,7 +48,7 @@ mkdir Color
 attrib +H C:\CobraFiles\Color
 cd C:\CobraFiles\Color
 echo color>>Blue.cobra
-call C:\CobraClient\CobraClientInstall\Resources\ColorCheck.bat
+call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
 :DefaultPink
 rmdir /S /Q C:\CobraFiles\Color
 cd C:\CobraFiles
@@ -56,7 +56,7 @@ mkdir Color
 attrib +H C:\CobraFiles\Color
 cd C:\CobraFiles\Color
 echo color>>Pink.cobra
-call C:\CobraClient\CobraClientInstall\Resources\ColorCheck.bat
+call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
 :DefaultYellow
 rmdir /S /Q C:\CobraFiles\Color
 cd C:\CobraFiles
@@ -64,7 +64,7 @@ mkdir Color
 attrib +H C:\CobraFiles\Color
 cd C:\CobraFiles\Color
 echo color>>Yellow.cobra
-call C:\CobraClient\CobraClientInstall\Resources\ColorCheck.bat
+call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
 :DefaultWhite
 rmdir /S /Q C:\CobraFiles\Color
 cd C:\CobraFiles
@@ -72,4 +72,4 @@ mkdir Color
 attrib +H C:\CobraFiles\Color
 cd C:\CobraFiles\Color
 echo color>>White.cobra
-call C:\CobraClient\CobraClientInstall\Resources\ColorCheck.bat
+call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
