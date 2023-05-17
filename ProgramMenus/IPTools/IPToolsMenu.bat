@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - IP Tools
@@ -45,3 +47,5 @@ if %errorlevel% == 8 start C:\CobraClient\CobraClientFiles\VPN\bin\hsscp.exe
 if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\IPConnections.bat
 if %errorlevel% == 10 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\Tracert.bat
 if %errorlevel% == 11 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+goto Top
