@@ -29,7 +29,7 @@ echo (6) Pinger
 echo ==========================================
 echo (7) Website IP
 echo ==========================================
-echo (8) Cobra VPN (Broken)
+echo (8) Cobra VPN
 echo ==========================================
 echo (9) Check Connections
 echo ==========================================
