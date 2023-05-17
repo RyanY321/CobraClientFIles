@@ -41,7 +41,7 @@ if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools\D
 if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\DNSTables.bat
 if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\Pinger.bat
 if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools\DNSLookupMenu.bat
-if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\Resources\Error.bat
+if %errorlevel% == 8 start C:\CobraClient\CobraClientFiles\VPN\bin\hsscp.exe
 if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\IPConnections.bat
 if %errorlevel% == 10 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\Tracert.bat
 if %errorlevel% == 11 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
