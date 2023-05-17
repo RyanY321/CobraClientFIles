@@ -80,4 +80,4 @@ echo.
 del "%temp%\%webclient%.vbs" /f /q /s >nul
 del "%temp%\response.txt" /f /q /s >nul
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

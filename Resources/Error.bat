@@ -17,4 +17,4 @@ echo a support member and explain what you were
 echo doing before this error occurred.
 echo ==========================================
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

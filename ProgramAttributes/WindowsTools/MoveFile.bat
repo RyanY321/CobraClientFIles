@@ -17,4 +17,4 @@ set /p Dir2=Please enter the destination path of the directory:
 
 move /Y %Dir1% %Dir2%
 echo Move Complete!
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

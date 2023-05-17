@@ -28,13 +28,13 @@ if %errorlevel% == 1 shutdown.exe /s /t 05
 if %errorlevel% == 2 shutdown.exe /r /t 05
 if %errorlevel% == 3 goto Sleep
 if %errorlevel% == 4 goto Hibernate
-if %errorlevel% == 5 call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 6 exit
 
 :Sleep
 rundll32.exe powrprof.dll, SetSuspendState Sleep
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 
 :Hibernate
 shutdown.exe/h
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

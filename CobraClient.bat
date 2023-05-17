@@ -57,41 +57,41 @@ echo Done.
 echo.
 timeout 3 >nul
 echo Loading Files...
-cd C:\CobraClient\CobraClientInstall
+cd C:\CobraClient\CobraClientFiles
 dir /b /a-d 
 timeout 3 >nul
 echo Loading Resources...
-cd C:\CobraClient\CobraClientInstall\Resources
+cd C:\CobraClient\CobraClientFiles\Resources
 dir /b /a-d
 timeout 3 >nul
 echo Loading Attributes...
-cd C:\CobraClient\CobraClientInstall\ProgramAttributes\General
+cd C:\CobraClient\CobraClientFiles\ProgramAttributes\General
 dir /b /a-d 
-cd C:\CobraClient\CobraClientInstall\ProgramAttributes\IPTools
+cd C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools
 dir /b /a-d 
-cd C:\CobraClient\CobraClientInstall\ProgramAttributes\Logs
+cd C:\CobraClient\CobraClientFiles\ProgramAttributes\Logs
 dir /b /a-d 
-cd C:\CobraClient\CobraClientInstall\ProgramAttributes\Options
+cd C:\CobraClient\CobraClientFiles\ProgramAttributes\Options
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramAttributes\Tron
+cd C:\CobraClient\CobraClientFiles\ProgramAttributes\Tron
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramAttributes\WindowsTools
+cd C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools
 dir /b /a-d
 timeout 3 >nul
 echo Loading Menus...
-cd C:\CobraClient\CobraClientInstall\ProgramMenus
+cd C:\CobraClient\CobraClientFiles\ProgramMenus
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramMenus\IPTools
+cd C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramMenus\Logs
+cd C:\CobraClient\CobraClientFiles\ProgramMenus\Logs
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramMenus\Options
+cd C:\CobraClient\CobraClientFiles\ProgramMenus\Options
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramMenus\Shutdown
+cd C:\CobraClient\CobraClientFiles\ProgramMenus\Shutdown
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramMenus\Tron
+cd C:\CobraClient\CobraClientFiles\ProgramMenus\Tron
 dir /b /a-d
-cd C:\CobraClient\CobraClientInstall\ProgramMenus\WindowsTools
+cd C:\CobraClient\CobraClientFiles\ProgramMenus\WindowsTools
 dir /b /a-d 
 timeout 3 >nul
 cls
@@ -105,4 +105,4 @@ cls
 echo Starting Cobra Client...
 timeout 1 >nul
 cls
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

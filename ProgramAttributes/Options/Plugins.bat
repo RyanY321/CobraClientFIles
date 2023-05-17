@@ -34,7 +34,7 @@ choice /c 1234e /n
 if %errorlevel% == 1 goto HowPlugins
 if %errorlevel% == 2 goto PluginLoadBAT
 if %errorlevel% == 3 goto PluginLoadEXE
-if %errorlevel% == 4 call C:\CobraClient\CobraClientInstall\ProgramMenus\Options\OptionsMenu.bat 
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat 
 if %errorlevel% == 5 exit
 
 :HowPlugins
@@ -95,4 +95,4 @@ echo ==========================================
 set /p plugin=Plugin File Name:  
 start "C:\CobraPlugins\%plugin%"
 
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

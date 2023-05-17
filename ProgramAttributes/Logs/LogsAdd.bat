@@ -22,4 +22,4 @@ cd C:\CobraFiles\Notes
 echo %LogCont%>> "%LogName%.CobraClient"
 echo Added to log!
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

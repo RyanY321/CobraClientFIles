@@ -22,4 +22,4 @@ timeout 3 >nul
 cls
 nslookup %WebsiteName%
 pause
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

@@ -14,4 +14,4 @@ echo ==========================================
 defrag C:\
 echo Defrag Complete!
 timeout 3 >nul
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

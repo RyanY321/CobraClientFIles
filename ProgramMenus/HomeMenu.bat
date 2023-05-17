@@ -35,15 +35,15 @@ echo ==========================================
 echo (8) Suggestions
 echo ==========================================
 choice /c 12345678oe /n
-if %errorlevel% == 1 call C:\CobraClient\CobraClientInstall\ProgramAttributes\General\DriversQuery.bat
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\General\DriversQuery.bat
 if %errorlevel% == 2 diskpart
-if %errorlevel% == 3 call C:\CobraClient\CobraClientInstall\ProgramMenus\WindowsTools\WindowsMenu.bat
-if %errorlevel% == 4 call C:\CobraClient\CobraClientInstall\ProgramMenus\IPTools\IPToolsMenu.bat
-if %errorlevel% == 5 call C:\CobraClient\CobraClientInstall\ProgramMenus\Logs\LogsMenu.bat
-if %errorlevel% == 6 call C:\CobraClient\CobraClientInstall\ProgramMenus\Tron\TronMenu.bat
-if %errorlevel% == 7 call C:\CobraClient\CobraClientInstall\ProgramMenus\Shutdown\ShutdownMenu.bat
-if %errorlevel% == 8 call C:\CobraClient\CobraClientInstall\ProgramAttributes\General\Suggestion.bat
-if %errorlevel% == 9 call C:\CobraClient\CobraClientInstall\ProgramMenus\Options\OptionsMenu.bat
+if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\WindowsTools\WindowsMenu.bat
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\IPTools\IPToolsMenu.bat
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\Logs\LogsMenu.bat
+if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramMenus\Tron\TronMenu.bat
+if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\Shutdown\ShutdownMenu.bat
+if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\ProgramAttributes\General\Suggestion.bat
+if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat
 if %errorlevel% == 10 exit
 
 goto Top

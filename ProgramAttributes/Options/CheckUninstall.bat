@@ -6,9 +6,9 @@ choice /c yn /n
 if %errorlevel% == 1 goto Y
 if %errorlevel% == 2 goto N
 :Y
-move /y C:\CobraClient\CobraClientInstall\Cobra-Uninstall.exe C:\
+move /y C:\CobraClient\CobraClientFiles\Cobra-Uninstall.exe C:\
 timeout 3 >null
 start C:\Cobra-Uninstall.exe
 exit
 :N
-call C:\CobraClient\CobraClientInstall\ProgramMenus\HomeMenu.bat
+call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat

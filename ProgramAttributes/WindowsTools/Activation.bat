@@ -1,1 +1,1 @@
-call C:\CobraClient\CobraClientInstall\Resources\Error.bat
+call C:\CobraClient\CobraClientFiles\Resources\Error.bat
