@@ -4,6 +4,20 @@ color 04
 set version=2.7
 cls 
 
+if exist "C:\CCLaunchFiles\version\2.4.txt" (
+    goto Updated
+) else (
+    goto UpdateWarning
+)
+
+:UpdateWarning
+color C0
+title Outdated
+echo You are using an outdated version of the launcher. Please update your launcher.
+pause
+:Updated
+
+title Cobra Client Launching...
 echo Checking Color...
 
 
