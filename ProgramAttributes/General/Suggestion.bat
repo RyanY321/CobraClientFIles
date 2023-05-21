@@ -24,7 +24,7 @@ if exist "C:\CobraClient\CobraClientFiles\Resources\Suggestions.js" (
 
 cd C:\CobraClient\CobraClientFiles\Resources
 echo const webhook = require("webhook-discord"); >>Suggestions.js
-echo const Hook = new webhook.Webhook("https://discord.com/api/webhooks/1097701265640792186/2SqNF6ZPi2nAfFPfpwhTJ0G1Gq2yZJfJZLroeUCU26gFJtX-01BeTDWrcOKvuK6FRh0d"); >>Suggestions.js
+echo const Hook = new webhook.Webhook("https://discord.com/api/webhooks/1109884125248229436/EOklX9RJn6j9Zr1n8pW5c_dfEEh0XJRdyw3vQxcjcvbO2884cgtkkCJgrUyhEr3Mwjbm"); >>Suggestions.js
 echo Hook.success("%discord%'s suggestion","%suggestion%"); >>Suggestions.js
 
 node C:\CobraClient\CobraClientFiles\Resources\Suggestions.js

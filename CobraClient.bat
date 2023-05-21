@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 color 04
-set version=2.6
+set version=2.7
 cls 
 
 echo Checking Color...
