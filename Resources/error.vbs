@@ -1,0 +1,1 @@
+X=MsgBox("Cobra Client ran into a critical error!",0+32,"Cobra Client - Error")
