@@ -36,5 +36,6 @@ if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Opti
 if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Plugins.bat
 if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\DisableAutoUpdate.bat
 if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\CheckUninstall.bat
-if %errorlevel% == 7 call C:\CObraClient\CobraClientFiles\ProgramAttributes\Options\Updater.bat
+:: if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Updater.bat
+if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\Resources\Error.bat
 if %errorlevel% == 9 exit
