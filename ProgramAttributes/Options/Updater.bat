@@ -10,4 +10,6 @@ if exist "C:\CobraClientUpdater.exe" (
 
 :Continue
 move /Y C:\CobraClient\CobraClientFiles\CobraClientUpdater.exe C:\
+timeout 3 >nul
 start C:\CobraClientUpdater.exe
+exit
