@@ -25,9 +25,11 @@ echo (5) Disable AutoUpdate
 echo ==========================================
 echo (6) Uninstall Client
 echo ==========================================
-echo (7) Back
+echo (7) Update CC
 echo ==========================================
-choice /c 1234567e /n
+echo (8) Back
+echo ==========================================
+choice /c 12345678e /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Headless.bat
 if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Colors.bat
 if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\PatchNotes.bat
@@ -35,4 +37,5 @@ if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Opti
 if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\DisableAutoUpdate.bat
 if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\CheckUninstall.bat
 if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %errorlevel% == 8 exit
+if %errorlevel% == 8 call C:\CObraClient\CobraClientFiles\ProgramAttributes\Options\Updater.bat
+if %errorlevel% == 9 exit
