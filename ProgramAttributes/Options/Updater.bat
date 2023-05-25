@@ -4,6 +4,7 @@ cls
 
 if exist "C:\CobraClientUpdater.exe" (
     del /F /Q C:\CobraClientUpdater.exe
+    goto Continue
 ) else (
     goto Continue
 )
