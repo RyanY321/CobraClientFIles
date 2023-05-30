@@ -26,14 +26,17 @@ echo (5) Move A File
 echo ==========================================
 echo (6) Free Windows Activation(Temp Disabled)
 echo ==========================================
-echo (7) Back
+echo (7) Built-In Administrator
 echo ==========================================
-choice /c 1234567e /n
+echo (8) Back
+echo ==========================================
+choice /c 12345678e /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\SFC.bat
 if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\Defrag.bat
 if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\DAT.bat
 if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\CurrentUser.bat
 if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\MoveFile.bat
-if %errorlevel% == 6 call C:\CobraClient\CobraClient\ProgramAttributes\WindowsFiles\Activation.bat
-if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %errorlevel% == 8 exit
+if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsFiles\Activation.bat
+if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\WindowsTools\AdministratorMenu.bat
+if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
