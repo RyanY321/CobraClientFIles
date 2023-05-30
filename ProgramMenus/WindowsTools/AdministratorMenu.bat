@@ -34,7 +34,7 @@ echo Enabled...
 pause
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 
-:Disabled
+:Disable
 net user Administrator /active:no
 echo Disabled...
 pause
