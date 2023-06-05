@@ -4,7 +4,7 @@ color 04
 set version=2.7
 cls 
 
-if exist "C:\CCLaunchFiles\version\2.4.txt" (
+if exist "C:\CCLaunchFiles\version\2.5.txt" (
     goto Updated
 ) else (
     goto UpdateWarning
