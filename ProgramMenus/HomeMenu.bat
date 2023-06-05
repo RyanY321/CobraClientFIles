@@ -12,13 +12,6 @@ echo ██║░░██╗██║░░██║██╔══██╗█
 echo ╚█████╔╝╚█████╔╝██████╦╝██║░░██║██║░░██║
 echo ░╚════╝░░╚════╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝
 echo ==========================================
-if exist "C:\CCLaunchFiles\version\2.4.txt" (
-    goto Continue
-) else (
-    echo Outdated Launcher!
-    goto Continue
-)
-:Continue
 echo User : %USERNAME%
 echo Date : %date%
 echo Version - %version%
