@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 color 04
-set version=2.7
+set version=2.8
 cls 
 
 title Cobra Client Launching...
