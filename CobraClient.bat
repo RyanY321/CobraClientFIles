@@ -7,7 +7,6 @@ cls
 title Cobra Client Launching...
 echo Checking Color...
 
-
 :ColorCheck
 if exist "C:\CobraFiles\Color\Red.cobra" color 04
 if exist "C:\CobraFiles\Color\Blue.cobra" color 09
@@ -37,7 +36,6 @@ goto Continue2
 :CreateColor
 mkdir C:\CobraFiles\Color
 goto Continue3
-
 attrib +H C:\CobraFiles
 :Continue2 
 attrib +H C:\CobraFiles\Notes
@@ -45,14 +43,12 @@ goto CheckFiles
 :Continue3
 attrib +H C:\CobraFiles\Color
 goto CheckFiles
-
 :Continue
 if exist "C:\CobraFiles\Notes" (
     if exist "C:\CobraFiles\Color" ( goto Continue4 ) else ( goto CreateColor )
 ) else (
     goto CreateColor
 )
-
 :Continue4
 echo Done.
 echo.
@@ -107,3 +103,4 @@ echo Starting Cobra Client...
 timeout 1 >nul
 cls
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+exit
