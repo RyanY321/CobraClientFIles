@@ -6,6 +6,7 @@
 = Version: 2.8                                   =
 ==================================================
 = Failsafe in Program                            =
+= Updated Options Menu                           =
 ==================================================
 = Created with love by The Cobra Client Team <3  =
 ==================================================

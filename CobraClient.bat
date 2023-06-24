@@ -2,6 +2,8 @@
 chcp 65001 >nul
 color 04
 set version=2.8
+set BN=CC052323_28219
+set InstallationChannel=Stable Release
 cls 
 
 title Cobra Client Launching...

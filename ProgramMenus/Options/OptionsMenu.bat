@@ -12,6 +12,9 @@ echo ╚█████╔╝╚█████╔╝██████╦╝█
 echo ░╚════╝░░╚════╝░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝
 echo ==========================================
 echo Options Menu
+echo Version = %version%
+echo Build Number = %BN%
+echo Installation Channel = %InstallationChannel%
 echo ==========================================
 echo (1) Headless Mode (Temp Disabled)
 echo ==========================================
