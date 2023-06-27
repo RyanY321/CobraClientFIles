@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 color 04
-set version=2.8
+set version=Canary 2.8
 set BN=CC052323_28219
 set InstallationChannel=Stable Release
 cls 
