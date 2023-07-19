@@ -23,34 +23,34 @@ echo Checking Files...
 
 :CheckFiles
 
-if exist "C:\CobraFiles" (
-    goto Continue
-) else (
-    goto CreateFiles
-)
+:: if exist "C:\CobraFiles" (
+::     goto Continue
+:: ) else (
+::     goto CreateFiles
+:: )
 
-:CreateFiles
-cd C:\
-mkdir C:\CobraFiles
-:CreateNotes
-mkdir C:\CobraFiles\Notes
-goto Continue2
-:CreateColor
-mkdir C:\CobraFiles\Color
-goto Continue3
-attrib +H C:\CobraFiles
-:Continue2 
-attrib +H C:\CobraFiles\Notes
-goto CheckFiles
-:Continue3
-attrib +H C:\CobraFiles\Color
-goto CheckFiles
-:Continue
-if exist "C:\CobraFiles\Notes" (
-    if exist "C:\CobraFiles\Color" ( goto Continue4 ) else ( goto CreateColor )
-) else (
-    goto CreateColor
-)
+:: :CreateFiles
+:: cd C:\
+:: mkdir C:\CobraFiles
+:: :CreateNotes
+:: mkdir C:\CobraFiles\Notes
+:: goto Continue2
+:: :CreateColor
+:: mkdir C:\CobraFiles\Color
+:: goto Continue3
+:: attrib +H C:\CobraFiles
+:: :Continue2 
+:: attrib +H C:\CobraFiles\Notes
+:: goto CheckFiles
+:: :Continue3
+:: attrib +H C:\CobraFiles\Color
+:: goto CheckFiles
+:: :Continue
+:: if exist "C:\CobraFiles\Notes" (
+::     if exist "C:\CobraFiles\Color" ( goto Continue4 ) else ( goto CreateColor )
+:: ) else (
+::    goto CreateColor
+:: )
 :Continue4
 echo Done.
 echo.
