@@ -1,7 +1,7 @@
-:Top
 @echo off
 chcp 65001 >nul
 title Cobra Client - Note Logs
+:Top
 cls
 
 if exist "C:\CobraFiles\Notes" (
@@ -9,6 +9,8 @@ if exist "C:\CobraFiles\Notes" (
 ) else (
     goto MakeNotesFolder
 )
+
+:continue
 
 echo.
 echo ░█████╗░░█████╗░██████╗░██████╗░░█████╗░
