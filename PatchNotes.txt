@@ -1,12 +1,11 @@
 ==================================================
-= Cobra Client Patch Notes                       =
+= Cobra Client Beta Patch Notes                  =
 ==================================================
-= Updated: 6/23/23                               =
-= Build Number: CC052323_28219                   =
-= Version: 2.8                                   =
+= Updated: 7/24/23                               =
+= Build Number: BetaCC072423_23734               =
+= Version: 2.9                                   =
 ==================================================
-= Failsafe in Program                            =
-= Updated Options Menu                           =
+= Better Handling added to the app               =
 ==================================================
 = Created with love by The Cobra Client Team <3  =
 ==================================================
