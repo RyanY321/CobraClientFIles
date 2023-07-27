@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 cls
@@ -12,3 +14,9 @@ start C:\Cobra-Uninstall.exe
 exit
 :N
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Windows Tools
@@ -40,3 +42,9 @@ if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Wind
 if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\WindowsTools\AdministratorMenu.bat
 if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

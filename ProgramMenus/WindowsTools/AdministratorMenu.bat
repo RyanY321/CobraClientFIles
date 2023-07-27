@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 cls
@@ -39,3 +41,9 @@ net user Administrator /active:no
 echo Disabled...
 pause
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

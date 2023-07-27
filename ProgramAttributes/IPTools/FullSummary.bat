@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - IP Config _ Full Summary
@@ -16,3 +18,9 @@ ipconfig /all
 echo ==========================================
 pause
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

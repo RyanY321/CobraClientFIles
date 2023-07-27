@@ -1,7 +1,8 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Note Logs
-:Top
 cls
 
 if exist "C:\CobraFiles\Notes" (
@@ -40,4 +41,9 @@ if %errorlevel% == 5 exit
 :MakeNotesFolder
 cd C:\CobraFiles
 mkdir Notes
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
 goto Top

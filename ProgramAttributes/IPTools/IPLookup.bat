@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - IP Lookup
@@ -81,3 +83,9 @@ del "%temp%\%webclient%.vbs" /f /q /s >nul
 del "%temp%\response.txt" /f /q /s >nul
 pause
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

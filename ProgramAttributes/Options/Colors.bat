@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 cls
@@ -73,3 +75,9 @@ attrib +H C:\CobraFiles\Color
 cd C:\CobraFiles\Color
 echo color>>White.cobra
 call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

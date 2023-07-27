@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Suggestions
@@ -30,3 +32,9 @@ echo Hook.success("%discord%'s suggestion","%suggestion%"); >>Suggestions.js
 node C:\CobraClient\CobraClientFiles\Resources\Suggestions.js
 pause
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

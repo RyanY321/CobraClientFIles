@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65501 >nul
 title Cobra Client - Shutdown Menu
@@ -38,3 +40,9 @@ call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 :Hibernate
 shutdown.exe/h
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

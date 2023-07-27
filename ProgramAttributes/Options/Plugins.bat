@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 
@@ -96,3 +98,9 @@ set /p plugin=Plugin File Name:
 start "C:\CobraPlugins\%plugin%"
 
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

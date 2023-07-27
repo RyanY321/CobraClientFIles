@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Renew IP
@@ -20,3 +22,9 @@ choice /c yne /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\IPrenew.bat
 if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 3 exit
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

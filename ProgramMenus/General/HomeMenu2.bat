@@ -33,3 +33,9 @@ if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.
 if %errorlevel% == 4 call
 if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat
 if %errorlevel% == 6 exit
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

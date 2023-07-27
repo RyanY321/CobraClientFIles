@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Website IP Menu
@@ -25,3 +27,9 @@ if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTo
 if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\DNSNoWWW.bat
 if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 4 exit
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

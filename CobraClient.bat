@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 color 04
@@ -9,4 +11,8 @@ cls
 
 call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
 
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
 exit
+
+goto Top

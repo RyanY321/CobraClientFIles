@@ -1,4 +1,5 @@
-:Top:
+:Top
+
 @echo off
 chcp 65001 >nul
 cls
@@ -42,5 +43,9 @@ if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\ProgramMenus\Tron\Tron
 if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\General\HomeMenu2.bat
 if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat
 if %errorlevel% == 9 exit
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
 
 goto Top

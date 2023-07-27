@@ -1,3 +1,5 @@
+:Top 
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Current User
@@ -16,3 +18,9 @@ echo into this desktop %username%,
 echo on %date%, at %time%
 pause
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top
