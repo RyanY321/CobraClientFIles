@@ -42,7 +42,7 @@ if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Opti
 if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\Resources\Error.bat
 if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 8 exit
-if %errorlevel% == 9 call C:\CobraClient\Resources\Admin.bat
+if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\Resources\Admin.bat
 
 call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
 
