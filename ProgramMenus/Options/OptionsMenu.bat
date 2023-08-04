@@ -18,6 +18,7 @@ echo Version = %version%
 echo Build Number = %BN%
 echo Installation Channel = %InstallationChannel%
 echo Press A to open Admin Menu
+echo Press C to Change Installation
 echo ==========================================
 echo (1) Headless Mode (Temp Disabled)
 echo ==========================================
@@ -33,7 +34,7 @@ echo (6) Update CC (Temp Disabled)
 echo ==========================================
 echo (7) Back 
 echo ==========================================
-choice /c 1234567ea /n
+choice /c 1234567eac /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Headless.bat
 if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Colors.bat
 if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\PatchNotes.bat
@@ -43,6 +44,7 @@ if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\Resources\Error.bat
 if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 8 exit
 if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\Resources\Admin.bat
+if %errorlevel% == 10 call C:\CobraClient\CobraClientFiles\Resources\InstallationChannel.bat
 
 call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
 
