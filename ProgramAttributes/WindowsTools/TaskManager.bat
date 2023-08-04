@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Task Manager
@@ -31,3 +33,9 @@ echo Task %PID% was killed SUCCESSFULLY!
 echo ==========================================
 pause
 call C:\CobraClient\CobraClientFiles\Resources\ColorCheck.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

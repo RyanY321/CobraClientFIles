@@ -1,7 +1,17 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Note Logs
 cls
+
+if exist "C:\CobraFiles\Notes" (
+    goto continue
+) else (
+    goto MakeNotesFolder
+)
+
+:continue
 
 echo.
 echo ░█████╗░░█████╗░██████╗░██████╗░░█████╗░
@@ -27,3 +37,13 @@ if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Logs
 if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Logs\LogsView.bat
 if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\HomeMenu.bat
 if %errorlevel% == 5 exit
+
+:MakeNotesFolder
+cd C:\CobraFiles
+mkdir Notes
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

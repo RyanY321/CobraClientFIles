@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Move A File
@@ -18,3 +20,9 @@ set /p Dir2=Please enter the destination path of the directory:
 move /Y %Dir1% %Dir2%
 echo Move Complete!
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

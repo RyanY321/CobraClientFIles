@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Tron
@@ -16,4 +18,10 @@ echo on this device?  Y/N
 echo ==========================================
 choice /c yn /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Tron\Tron.bat
-if %errorlevel% == 2 goto Main  
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

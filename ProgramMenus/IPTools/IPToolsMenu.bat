@@ -48,4 +48,8 @@ if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTo
 if %errorlevel% == 10 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\Tracert.bat
 if %errorlevel% == 11 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
 goto Top

@@ -30,6 +30,12 @@ choice /c 1234oe /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramMenus\Shutdown\ShutdownMenu.bat
 if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\General\Suggestion.bat
 if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %errorlevel% == 4 call
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat
 if %errorlevel% == 6 exit
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

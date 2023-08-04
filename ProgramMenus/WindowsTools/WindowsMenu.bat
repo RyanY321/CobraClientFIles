@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 title Cobra Client - Windows Tools
@@ -41,3 +43,9 @@ if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\WindowsTo
 if %errorlevel% == 8 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\TaskManager.bat
 if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 10 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top

@@ -1,3 +1,5 @@
+:Top
+
 @echo off
 chcp 65001 >nul
 cls
@@ -10,6 +12,11 @@ if exist "C:\Program Files (x86)\Hotspot Shield\12.1.1" (
 
 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 
+call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
+
+exit
+
+goto Top
+
 :VPN
 echo You can close this window.
-"C:\Program Files (x86)\Hotspot Shield\12.1.1\bin\hsscp.exe"
