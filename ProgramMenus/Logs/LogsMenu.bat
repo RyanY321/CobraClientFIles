@@ -35,7 +35,7 @@ choice /c 1234e /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Logs\LogsAdd.bat
 if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Logs\LogsRemove.bat
 if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Logs\LogsView.bat
-if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\HomeMenu.bat
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 if %errorlevel% == 5 exit
 
 :MakeNotesFolder
