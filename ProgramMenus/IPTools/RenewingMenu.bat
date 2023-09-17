@@ -19,9 +19,9 @@ echo new IP?
 echo This process will take awhile.  Y/N
 echo ==========================================
 choice /c yne /n
-if %CobraClientResponse% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\IPrenew.bat
-if %CobraClientResponse% == 2 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %CobraClientResponse% == 3 exit
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\IPTools\IPrenew.bat
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 3 exit
 
 call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
 

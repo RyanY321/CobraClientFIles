@@ -27,12 +27,12 @@ echo ==========================================
 echo (4) Last Page
 echo ==========================================
 choice /c 1234oe /n
-if %CobraClientResponse% == 1 call C:\CobraClient\CobraClientFiles\ProgramMenus\Shutdown\ShutdownMenu.bat
-if %CobraClientResponse% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\General\Suggestion.bat
-if %CobraClientResponse% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %CobraClientResponse% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %CobraClientResponse% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat
-if %CobraClientResponse% == 6 exit
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramMenus\Shutdown\ShutdownMenu.bat
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\General\Suggestion.bat
+if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat
+if %errorlevel% == 6 exit
 
 call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
 

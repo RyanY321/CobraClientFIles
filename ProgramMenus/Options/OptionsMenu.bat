@@ -35,16 +35,16 @@ echo ==========================================
 echo (7) Back 
 echo ==========================================
 choice /c 1234567eac /n
-if %CobraClientResponse% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Headless.bat
-if %CobraClientResponse% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Colors.bat
-if %CobraClientResponse% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\PatchNotes.bat
-if %CobraClientResponse% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Plugins.bat
-if %CobraClientResponse% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\CheckUninstall.bat
-if %CobraClientResponse% == 6 call C:\CobraClient\CobraClientFiles\Resources\Error.bat
-if %CobraClientResponse% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %CobraClientResponse% == 8 exit
-if %CobraClientResponse% == 9 call C:\CobraClient\CobraClientFiles\Resources\Admin.bat
-if %CobraClientResponse% == 10 call C:\CobraClient\CobraClientFiles\Resources\InstallationChannel.bat
+if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Headless.bat
+if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Colors.bat
+if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\PatchNotes.bat
+if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\Plugins.bat
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Options\CheckUninstall.bat
+if %errorlevel% == 6 call C:\CobraClient\CobraClientFiles\Resources\Error.bat
+if %errorlevel% == 7 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 8 exit
+if %errorlevel% == 9 call C:\CobraClient\CobraClientFiles\Resources\Admin.bat
+if %errorlevel% == 10 call C:\CobraClient\CobraClientFiles\Resources\InstallationChannel.bat
 
 call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
 

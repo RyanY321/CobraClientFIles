@@ -26,12 +26,12 @@ echo ==========================================
 echo (5) Back
 echo ==========================================
 choice /c 12345e /n
-if %CobraClientResponse% == 1 shutdown.exe /s /t 05
-if %CobraClientResponse% == 2 shutdown.exe /r /t 05
-if %CobraClientResponse% == 3 goto Sleep
-if %CobraClientResponse% == 4 goto Hibernate
-if %CobraClientResponse% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %CobraClientResponse% == 6 exit
+if %errorlevel% == 1 shutdown.exe /s /t 05
+if %errorlevel% == 2 shutdown.exe /r /t 05
+if %errorlevel% == 3 goto Sleep
+if %errorlevel% == 4 goto Hibernate
+if %errorlevel% == 5 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %errorlevel% == 6 exit
 
 :Sleep
 rundll32.exe powrprof.dll, SetSuspendState Sleep
