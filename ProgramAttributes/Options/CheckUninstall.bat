@@ -5,8 +5,8 @@ chcp 65001 >nul
 cls
 echo Are you sure that you want to remove Cobra Client from your device.?[Y/N]
 choice /c yn /n
-if %errorlevel% == 1 goto Y
-if %errorlevel% == 2 goto N
+if %CobraClientResponse% == 1 goto Y
+if %CobraClientResponse% == 2 goto N
 :Y
 move /y C:\CobraClient\CobraClientFiles\Cobra-Uninstall.exe C:\
 timeout 3 >null

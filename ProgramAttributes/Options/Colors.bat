@@ -27,12 +27,12 @@ echo ==========================================
 echo (5) White
 echo ==========================================
 choice /c 12345e /n
-if %errorlevel% == 1 goto DefaultRed
-if %errorlevel% == 2 goto DefaultBlue
-if %errorlevel% == 3 goto DefaultPink
-if %errorlevel% == 4 goto DefaultYellow
-if %errorlevel% == 5 goto DefaultWhite
-if %errorlevel% == 6 goto Main
+if %CobraClientResponse% == 1 goto DefaultRed
+if %CobraClientResponse% == 2 goto DefaultBlue
+if %CobraClientResponse% == 3 goto DefaultPink
+if %CobraClientResponse% == 4 goto DefaultYellow
+if %CobraClientResponse% == 5 goto DefaultWhite
+if %CobraClientResponse% == 6 goto Main
 cd C:\CobraFiles
 
 :DefaultRed

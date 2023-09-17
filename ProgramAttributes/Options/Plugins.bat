@@ -33,11 +33,11 @@ echo ==========================================
 echo (4) Back
 echo ==========================================
 choice /c 1234e /n
-if %errorlevel% == 1 goto HowPlugins
-if %errorlevel% == 2 goto PluginLoadBAT
-if %errorlevel% == 3 goto PluginLoadEXE
-if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat 
-if %errorlevel% == 5 exit
+if %CobraClientResponse% == 1 goto HowPlugins
+if %CobraClientResponse% == 2 goto PluginLoadBAT
+if %CobraClientResponse% == 3 goto PluginLoadEXE
+if %CobraClientResponse% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\Options\OptionsMenu.bat 
+if %CobraClientResponse% == 5 exit
 
 :HowPlugins
 cls 

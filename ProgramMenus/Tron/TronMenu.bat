@@ -17,8 +17,8 @@ echo Are your sure that you want to install Tron
 echo on this device?  Y/N
 echo ==========================================
 choice /c yn /n
-if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Tron\Tron.bat
-if %errorlevel% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\ProgramMenus\HomeMenu.bat
+if %CobraClientResponse% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\Tron\Tron.bat
+if %CobraClientResponse% == 2 call C:\CobraClient\CobraClientFiles\ProgramAttributes\ProgramMenus\HomeMenu.bat
 
 call C:\CobraClient\CorbaClientFiles\Resources\Error.bat
 

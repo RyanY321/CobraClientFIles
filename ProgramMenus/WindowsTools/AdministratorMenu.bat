@@ -24,10 +24,10 @@ echo ==========================================
 echo (3) Back
 echo ==========================================
 choice /c 123e /n
-if %errorlevel% == 1 goto Enable
-if %errorlevel% == 2 goto Disable
-if %errorlevel% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
-if %errorlevel% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %CobraClientResponse% == 1 goto Enable
+if %CobraClientResponse% == 2 goto Disable
+if %CobraClientResponse% == 3 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
+if %CobraClientResponse% == 4 call C:\CobraClient\CobraClientFiles\ProgramMenus\HomeMenu.bat
 
 
 :Enable
