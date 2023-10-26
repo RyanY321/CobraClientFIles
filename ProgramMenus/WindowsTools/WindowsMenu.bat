@@ -30,7 +30,9 @@ echo (6) Free Windows Activation(Temp Disabled)
 echo ==========================================
 echo (7) Built-In Administrator
 echo ==========================================
-echo (8) Back
+echo (8) TaskManager
+echo ==========================================
+echo (9) Back
 echo ==========================================
 choice /c 123456789e /n
 if %errorlevel% == 1 call C:\CobraClient\CobraClientFiles\ProgramAttributes\WindowsTools\SFC.bat
