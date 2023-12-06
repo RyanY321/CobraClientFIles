@@ -22,7 +22,7 @@ echo (1) Shutdown Options
 echo ==========================================
 echo (2) Suggestions
 echo ==========================================
-echo (3) App Launcher
+echo (3) Discontinued - App Launcher
 echo ==========================================
 echo (4) Last Page
 echo ==========================================

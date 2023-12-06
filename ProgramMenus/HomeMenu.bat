@@ -16,6 +16,7 @@ echo ==========================================
 echo User : %USERNAME%
 echo Date : %date%
 echo Version - %version%
+echo GUI Coming In 2024
 echo Press O to open Options
 echo Press E to exit
 echo ==========================================
