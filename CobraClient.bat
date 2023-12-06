@@ -3,8 +3,8 @@
 @echo off
 chcp 65001 >nul
 color 04
-set version=2.9
-set BN=CC091723_86374
+set version=3.0
+set BN=CC120623_86374
 set InstallationChannel=Stable Release
 mode con cols=125 lines=30
 cls 
